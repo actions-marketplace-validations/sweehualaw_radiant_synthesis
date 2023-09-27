@@ -9,3 +9,4 @@ runs:
   using: "composite"
   steps:
     - run: pnmainc radiant/radiant_synthesis.tcl $RDF
+      shell: bash
