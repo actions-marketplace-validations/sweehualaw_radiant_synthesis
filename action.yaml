@@ -8,5 +8,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: pnmainc ${{ github.action_path }}/radiant/radiant_synthesis.tcl $RDF
+    - run: pnmainc ${{ github.action_path }}/radiant/radiant_synthesis.tcl ${{ inputs.RDF }}
       shell: bash
